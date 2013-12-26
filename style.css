@@ -13,6 +13,9 @@ body {
 	background-image:url(images/background.png);
 	background-repeat:repeat-x;
 }
+img {
+	float: left;
+}
 *
 {
   margin: 0 auto 0 auto;

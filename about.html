@@ -57,35 +57,7 @@
         	<h2> Why is this project relevant</h2>
         	<p>&nbsp;</p>
            	<p>&nbsp;</p>
-			Home 3D printing has taken off in the last few years, fueled by a large community of designers 
-			creating open source hardware and free CAD objects to be printed. There are many different types 
-			of 3D printers with varying levels of functionality, including some industrial and research versions
-			that can create things with different materials. However, home printing is normally limited to one or
-			sometimes two types of plastic per print. While this can create a wide range of interesting and useful
-			creations, they still require human intervention to create items with non-printable components such as 
-			electronics, motors, or metal. 
-			<p>I propose creating a machine based off an open-source hardware design for a 3 Axis CNC machine 
-			that would extend the functionality of commercially available home 3D printers. The overall goal 
-			would be to embed parts into open spaces in the print that I would flag in the CAD program.  
-			I would remove the routing tool from the design and engineer an “arm” that would stretch into the
-			3D printer. It would work by pausing the 3D printer, picking up and dropping components into a specific 
-			x-y-z point in the print, and then resuming the print when it had retracted.
-			<p>It uses a gantry crane for x and y axis control while using a threaded rod to raise and lower a 
-			platform for the z axis. This design is inherently precise. The aluminum rails and the steel plates 
-			that ride on them are very ridged since they were designed to hold a routing tool while cutting into
-			material. This design also has the benefit of being functional using many different electronic suites to drive my motors. I have chosen an open-source 4-axis stepper motor driver to be the brain of my machine since it would allow me to edit the firmware and create my own operating system. This would be necessary because no machine like this has been built to my knowledge.
-			<p>While there is definitely a hardware component to this research project, most of the engineering has already 
-			been done, and I would be able to build the machine and create limited movement very easily. The majority of
-			this project would consist of creating and connecting many different specialized pieces of software and making
-			them work together. I plan on adapting three different pieces of software during the course of my project. First
-			is the design element. The CAD program would need some way to flag what part of the 3D objects are for the printer
-			to make and which parts are going to be embedded using other parts. Second is the slicing program, which takes the
-			CAD output and creates the actual machine code for the 3D printer (called Gcode). It would have to be edited to 
-			read those flags and, when necessary, add in the instructions to pause a print, clear the work tray of the printing
-			head, and wait for the piece to be inserted. The last piece of software would be the firmware for my stepper motor 
-			driver that controls my machine. It will also have to take in the output from the slicing program and do the opposite 
-			of the 3D printer. It would have to wait while the printer is working, then insert the part while the printer is 
-			waiting, then wake up the printer again and continue printing.
+			<a href="images/version1_1.JPG"><img src="images/Me.png" align="middle"/></a><div style="clear:left"></div><p><br>
 
         </div>
         <div id="content_bottom"></div>

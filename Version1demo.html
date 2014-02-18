@@ -62,6 +62,11 @@
 				The electromagnet was not functioning yet at the time of filming and the object being printed was chosen in order to have a speedy demo.
 				I hope to have more demos comingD soon showing the electromagnet working and creating a useful object.
 			</p>
+			<p>
+				The code written for this demo runs on the Raspberry Pi and communicates with the makerbot and the crane over TTY sockets. A python scritp 
+				parses and sends the x3g code for the printed object and sends it to the Replicater. It listens on the update percentage command and when 
+				it hits 4 percent it pauses the print and runs the gcode file compiled for the crane and resumeing when this is complete. To view the code visit
+				<a href="https://github.com/ryanthecoder/DemoCode">here</a>.
         </div>
         <div id="content_bottom"></div>
             

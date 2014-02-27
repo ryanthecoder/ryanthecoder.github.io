@@ -54,17 +54,26 @@
 		</div>
         <div id="content_main">
         	
-			<h2> Demo</h2>
+			<h2> Demo Round 2</h2>
 			<p>
-				This was a demo I created to demonstrate the concept of my project while working on the software to make it fully functional.
-				The electromagnet was not functioning yet at the time of filming and the object being printed was chosen in order to have a speedy demo.
-				I hope to have more demos coming soon, showing the electromagnet working and creating a useful object.
+				This was a demo was created immediately after I soldered all the connections for the limit/homing switches and the electromagnet.
+				Sorry about the bad quality I will try and change this video soon.
 			</p>
-			<iframe width="640" height="390" src="//www.youtube.com/embed/MkNq8sSJqpY" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/4sciuxcIXJU" frameborder="0" allowfullscreen></iframe>
 			<p>
-				The code written for this demo runs on the Raspberry Pi and communicates with the makerbot and the crane over TTY sockets. A python script sends the x3g code to the Replicater while it listens on the update percentage command. When 
-				it hits 4 percent it pauses the print and runs the gcode file that I wrote for the crane, resumeing when this is complete. To view the code visit
-				<a href="https://github.com/ryanthecoder/DemoCode">here</a>.
+				The tinyG is running off of this GCode script I made:<br>
+				g90 g0 z15<br>
+				g90 g0 y25<br>
+				g90 g0 z0<br>
+				m3 s4000<br>
+				g90 g0 y7z100<br>
+				g90 g0 x200<br>
+				g90 g0 z75<br>
+				m5 <br>
+				g90 g0 z100<br>
+				g90 g0 x0<br>
+				g90 g0 y0z0<br>
+
         </div>
         <div id="content_bottom"></div>
             

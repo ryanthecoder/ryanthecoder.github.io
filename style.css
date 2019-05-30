@@ -13,19 +13,36 @@ body {
 	background-image:url(images/background.png);
 	background-repeat:repeat-x;
 }
+
+
 img {
-    float: left;
+    float:none;
+	margin: 0 auto 0 auto;
+	text-align:left;
 }
-*
-{
+
+* {
   margin: 0 auto 0 auto;
- text-align:left;}
+ text-align:left;
+}
+
+
+#work1 img{
+	display:block;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+
+
 
 #container
 {
-  display: block; 
+  display: block;
   height:auto;
-  position: relative; 
+  position: relative;
   width: 960px;
 }
 
@@ -33,7 +50,7 @@ img {
 #header
 {
 height:85px;
-width:960px;	
+width:960px;
 }
 
 #header h1
@@ -42,9 +59,10 @@ width:960px;
 text-align:left;
 color:#FFFFFF;
 font-size:43px;
-color:#FFF;	
+color:#FFF;
 left:14px;
 top:18px;
+margin-bottom:10pk
 }
 
 
@@ -63,7 +81,7 @@ width:400px;
 background-image:url(images/main.jpg);
 background-repeat:no-repeat;
 width:900px;
-height:354px;	
+height:354px;
 }
 
 
@@ -159,8 +177,8 @@ font-weight:bold;
 #leftmenu_main ul li a:hover
 {
 color:#000000;
-	
-	
+
+
 }
 
 
@@ -236,9 +254,9 @@ color:#FFF;
 
 #menu li {
 	list-style: none;
-	padding: 0px;	
-	display: inline; 
-	
+	padding: 0px;
+	display: inline;
+
 }
 
 #menu a {
@@ -253,7 +271,7 @@ color:#FFF;
 	font-size: 15px;
 	padding-left:13px;
 	padding-right:13px;
-	
+
 }
 
 #menu a:hover{
@@ -263,9 +281,18 @@ color:#FFF;
 
 #content p
 {
-	
+
 }
 
+#work1 {
+	margin-top:50px;
+}
+
+#work1 img{
+	margin-top:10px;
+	text-align:center;
+	float:none;
+}
 
 html, body {
 text-align: center;
